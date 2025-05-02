@@ -1,8 +1,0 @@
-Language:Python  
-IDE/Notebook:** Google Colab
-Libraries:  
-  - Data Processing: `pandas`, `numpy`  
-  - Visualization: `matplotlib`, `seaborn`  
-  - Machine Learning: `scikit-learn`, `tensorflow.keras`  
-  - Text Preprocessing: `nltk`, `spacy`  
-  - Data Scraping: `tweepy`, `snscrape`  
