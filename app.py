@@ -37,3 +37,22 @@ if st.button("Predict"):
         emotion = label_encoder.inverse_transform([prediction[0]])[0]
 
         st.success(f"Predicted Emotion: **{emotion}**")
+
+
+
+import os
+import joblib
+import streamlit as st
+
+# Get the directory of the current script
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Construct full paths to the model files
+model_path = os.path.join(BASE_DIR, 'emotion_model.pkl')
+vectorizer_path = os.path.join(BASE_DIR, 'tfidf_vectorizer.pkl')
+label_encoder_path = os.path.join(BASE_DIR, 'label_encoder.pkl')
+
+# Load the models
+model = joblib.load(model_path)
+vectorizer = joblib.load(vectorizer_path)
+label_encoder = joblib.load(label_encoder_path)
