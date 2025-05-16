@@ -69,9 +69,10 @@ streamlit run app.py
 
 🧠 Example Predictions
 Input	Predicted Emotion
-"I failed my exam"	Sad 😢
-"I won a prize in competition!"	Happy 😊
-"Just working on my tasks."	Neutral 😐
+"I failed my exam so sad"	Sad 😢
+"I won a prize in competition I'm happy !"	Happy 😊
+"Just working on my tasks i was neutral."	Neutral 😐
+[ the input was mention the key words to predict the analysis correctly ("because the trained model will be have  the less datas" )]
 
 👨‍💻 Team Members
 Name	Role
